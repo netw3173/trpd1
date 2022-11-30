@@ -10,3 +10,5 @@ https://www.technewstoday.com/install-and-use-make-in-windows
 https://robots.uc3m.es/installation-guides/install-boost.html
 
 .\b2 --build-type=complete
+
+https://levelup.gitconnected.com/the-definite-guide-on-compiling-and-linking-boost-c-libraries-for-visual-studio-projects-c79464d7282d
