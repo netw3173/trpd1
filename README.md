@@ -16,6 +16,8 @@ bootstrap.bat
 https://levelup.gitconnected.com/the-definite-guide-on-compiling-and-linking-boost-c-libraries-for-visual-studio-projects-c79464d7282d
 
 
+https://aprentis.net/how-to-resolve-msbuild-is-not-recognized-as-internal-or-external-command-error/
+
 cmake -G "Visual Studio 12 Win64" ..
 
 cmake -G "Visual Studio 15 Win64" ..
