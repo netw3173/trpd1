@@ -23,3 +23,5 @@ cmake -G "Visual Studio 12 Win64" ..
 cmake -G "Visual Studio 15 Win64" ..
 
 cmake -G"Visual Studio 16 2019" ../
+
+%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
