@@ -35,4 +35,6 @@ cmake -G "Visual Studio 15 2017 Win64" -DBOOST_LIBRARYDIR:PATH=c:/local/boost_1_
 
 cmake -G "Visual Studio 15 2017 Win64" -DBOOST_LIBRARYDIR:PATH=c:/local/boost_1_67_0 ..
 
+msbuild Pitcoin-Wallet.sln /p:Configuration=Release /m
+
 
