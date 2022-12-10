@@ -33,4 +33,6 @@ msbuild pitcoinX.sln /p:Configuration=Release /m
 
 cmake -G "Visual Studio 15 2017 Win64" -DBOOST_LIBRARYDIR:PATH=c:/local/boost_1_73_0 ..
 
+cmake -G "Visual Studio 15 2017 Win64" -DBOOST_LIBRARYDIR:PATH=c:/local/boost_1_67_0 ..
+
 
