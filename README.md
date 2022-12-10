@@ -24,4 +24,8 @@ cmake -G "Visual Studio 15 Win64" ..
 
 cmake -G"Visual Studio 16 2019" ../
 
+
 %ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
+
+cmake .. -G "Visual Studio 16 2019" -A x64 -DBOOST_LIBRARYDIR="c:\local\boost_1_73_0\lib64-msvc-14.2"
+msbuild pitcoinX.sln /p:Configuration=Release /m
